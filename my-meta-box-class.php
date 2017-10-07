@@ -7,15 +7,20 @@
  * straightforward. For name spacing purposes, All Types metabox ( meaning you can do anything with it )
  * is used. 
  *
- * This class is derived from Meta Box script by Rilwis<rilwis@gmail.com> version 3.2. which later was forked 
+ * This class is derived from MY Meta Box class by Ohad Raz v. 3.1.1  based on Meta Box script by 
+ * Rilwis<rilwis@gmail.com> version 3.2. which later was forked 
  * by Cory Crowley (email: cory.ivan@gmail.com) The purpose of this class is not to rewrite the script but to 
  * modify and change small things and adding a few field types that i needed to my personal preference. 
  * The original author did a great job in writing this class, so all props goes to him.
  * 
- * @version 3.1.1
- * @copyright 2011 - 2013
- * @author Ohad Raz (email: admin@bainternet.info)
+ * @version 3.2.1
+ * @copyright 2011 - 2017
+ * @author Rilwis <rilwis@gmail.com>
+ * @author Cory Crowley <cory.ivan@gmail.com> 
+ * @author  Ohad Raz <admin@bainternet.info>
+ * @author Gregor Gresak <razvoj@gresak.net>
  * @link http://en.bainternet.info
+ * @link https://gresak.net
  * 
  * @license GNU General Public LIcense v3.0 - license.txt
  * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
