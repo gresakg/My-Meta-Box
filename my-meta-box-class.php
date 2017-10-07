@@ -995,9 +995,8 @@ class AT_Meta_Box {
             
 
       // Validate meta value
-      //if ( class_exists( 'at_Meta_Box_Validate' ) && method_exists( 'at_Meta_Box_Validate', $field['validate_func'] ) ) {
-        $new = call_user_func( $field['validate_func'] , $new, $this->_fields );
-      //}
+      $new = call_user_func( $field['validate_func'] , $new );
+      
       
       //skip on Paragraph field
       if ($type != "paragraph"){
