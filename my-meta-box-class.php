@@ -13,7 +13,7 @@
  * modify and change small things and adding a few field types that i needed to my personal preference. 
  * The original author did a great job in writing this class, so all props goes to him.
  * 
- * @version 3.2.1
+ * @version 3.2.0
  * @copyright 2011 - 2017
  * @author Rilwis <rilwis@gmail.com>
  * @author Cory Crowley <cory.ivan@gmail.com> 
@@ -995,9 +995,9 @@ class AT_Meta_Box {
             
 
       // Validate meta value
-      if ( class_exists( 'at_Meta_Box_Validate' ) && method_exists( 'at_Meta_Box_Validate', $field['validate_func'] ) ) {
-        $new = call_user_func( array( 'at_Meta_Box_Validate', $field['validate_func'] ), $new );
-      }
+      //if ( class_exists( 'at_Meta_Box_Validate' ) && method_exists( 'at_Meta_Box_Validate', $field['validate_func'] ) ) {
+        $new = call_user_func( $field['validate_func'] , $new, $this->_fields );
+      //}
       
       //skip on Paragraph field
       if ($type != "paragraph"){
