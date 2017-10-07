@@ -995,7 +995,9 @@ class AT_Meta_Box {
             
 
       // Validate meta value
-      $new = call_user_func( $field['validate_func'] , $new );
+      if(!empty($field['validate_func'])) {
+        $new = call_user_func( $field['validate_func'] , $new );
+      }
       
       
       //skip on Paragraph field
